@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import './index.css'; // Assuming this contains TailwindCSS setup
 import App from './App';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // For Bootstrap CSS
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

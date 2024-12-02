@@ -1,0 +1,6 @@
+/* Tailwind CSS can be included here, assuming Tailwind has been configured properly */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles (optional) */
